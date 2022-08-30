@@ -14,6 +14,7 @@ My work-in-progress Moonlander keymap
 I currently have three layers. A base layer, symbol layer and a GUI layer.
 
 ### Base layer
+![Base layer](media/0.svg)
 The base layer is a standard QWERTY layout. I've tried to keep most of the keys
 where you'd expect for now.
 
@@ -64,6 +65,7 @@ I want to experiment with one-shot modifiers (sticky keys) for thumb modifiers
 in future.
 
 ### Symbol layer
+![Base layer](media/1.svg)
 The symbol layer is designed with the idea of having the commonly used symbols
 for programming be readily accessible. I also don't like extending my fingers
 to the number row on the base layer all that much, so I want numbers to be on
@@ -101,6 +103,7 @@ I think it might help for typing kebab- and snake-cased identifiers more
 quickly.
 
 ### GUI Layer
+![Base layer](media/2.svg)
 I might change the name for this layer, but it's for making GUI apps more
 accessible.
 
