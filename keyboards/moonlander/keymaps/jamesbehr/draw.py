@@ -5,10 +5,10 @@ from dataclasses import dataclass
 import xml.etree.ElementTree
 
 OUTER_SIZE = 54
-BORDER_SIZE = 1
+BORDER_SIZE = 2
 SIZE = 54 - BORDER_SIZE * 2
 BORDER_RADIUS = 5
-INNER_OFFSET_X = 6
+INNER_OFFSET_X = 3
 INNER_OFFSET_Y = 3
 
 
@@ -68,40 +68,51 @@ def el(element, *children, **props):
 
 
 def Key(*, label, x, y, w=1, h=1, ghosted, matrix):
-    inner_border_size = max(INNER_OFFSET_X, INNER_OFFSET_Y) * 2
-
-    outer_style = {
-        "fill": "#ccc",
-        "stroke-width": BORDER_SIZE,
-        "stroke": "#000",
-    }
-
-    inner_style = {
-        "fill": "rgba(255,255,255,0.8)",
-        "stroke-width": BORDER_SIZE,
-        "stroke": "rgba(0,0,0,.1)",
-    }
-
-    text_style = {
-        "font-size": "12px",
-        "font-family": "'Helvetica', 'Arial', sans-serif",
-    }
-
     width = SIZE * w
     height = SIZE * h
-    inner_width = width - INNER_OFFSET_X * 2
-    inner_height = height - INNER_OFFSET_Y * 2
 
     if ghosted:
         return el(
             "g",
-            el("rect", style=outer_style, rx=BORDER_RADIUS, width=width, height=height),
+            el(
+                "rect",
+                stroke_width=BORDER_SIZE,
+                stroke="#272727",
+                fill="#ccc",
+                rx=BORDER_RADIUS,
+                width=width,
+                height=height,
+            ),
             transform=f"translate({x * SIZE}, {y * SIZE})",
         )
 
+    inner_border_size = max(INNER_OFFSET_X, INNER_OFFSET_Y) * 2
+    inner_width = width - INNER_OFFSET_X * 2
+    inner_height = height - INNER_OFFSET_Y * 2
+    inner_style = {
+        "fill": "#ececec",
+        "stroke-width": BORDER_SIZE,
+    }
+
+    text_style = {
+        "font-size": "14px",
+        "color": "#272727",
+        "font-family": "'Helvetica', 'Arial', sans-serif",
+        "text-anchor": "middle",
+        "dominant-baseline": "middle",
+    }
+
     return el(
         "g",
-        el("rect", style=outer_style, rx=BORDER_RADIUS, width=width, height=height),
+        el(
+            "rect",
+            rx=BORDER_RADIUS,
+            stroke_width=BORDER_SIZE,
+            stroke="#272727",
+            fill="url(#keycap-border)",
+            width=width,
+            height=height,
+        ),
         el(
             "rect",
             style=inner_style,
@@ -114,8 +125,8 @@ def Key(*, label, x, y, w=1, h=1, ghosted, matrix):
         el(
             "text",
             label,
-            alignment_baseline="middle",
-            text_anchor="middle",
+            # alignment_baseline="middle",
+            # text_anchor="middle",
             style=text_style,
             x=INNER_OFFSET_X + inner_width / 2,
             y=INNER_OFFSET_Y + inner_height / 2,
@@ -143,6 +154,19 @@ def Keyboard(layout, layer, labels):
 
     return el(
         "svg",
+        el(
+            "defs",
+            el(
+                "linearGradient",
+                el("stop", offset="0%", stop_color="#fefefe"),
+                el("stop", offset="100%", stop_color="#c4c4c4"),
+                id="keycap-border",
+                x1="0%",
+                y1="0%",
+                x2="0%",
+                y2="100%",
+            ),
+        ),
         *keys(layout, layer, labels),
         width=width * SIZE + BORDER_SIZE,
         height=height * SIZE + BORDER_SIZE,
