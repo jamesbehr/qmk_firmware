@@ -44,9 +44,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [SYMB] = LAYOUT_moonlander(
         VRSN,    KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,             KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,   _______,
-        _______, _______, KC_MINS, KC_LCBR, KC_RCBR, KC_PIPE, _______,           _______, KC_DQUO, KC_AMPR, KC_ASTR, KC_AT,   KC_HASH,  _______,
-        _______, KC_EQL,  KC_UNDS, KC_LPRN, KC_RPRN, KC_PLUS, _______,           _______, KC_QUOT, KC_DLR,  KC_PERC, KC_CIRC, KC_COLN,  _______,
-        _______, _______, KC_BSLS, KC_LBRC, KC_RBRC, KC_TILD,                             KC_GRV,  KC_EXLM, KC_LT,   KC_GT,   KC_QUES,  _______,
+        _______, XXXXXXX, KC_PLUS, KC_LCBR, KC_RCBR, KC_CIRC, _______,           _______, KC_TILD, KC_GRV,  KC_HASH, KC_EXLM, XXXXXXX,  _______,
+        _______, KC_EQL,  KC_MINS, KC_LPRN, KC_RPRN, KC_AT,   _______,           _______, KC_PIPE, KC_UNDS, KC_DQUO, KC_QUOT, KC_COLN,  _______,
+        _______, KC_PERC, KC_ASTR, KC_LBRC, KC_RBRC, KC_DLR,                              KC_AMPR, KC_BSLS, KC_LABK, KC_RABK, KC_QUES,  _______,
         _______, _______, _______, _______, _______,          _______,           _______,          _______, _______, _______, _______,  _______,
                                             _______, _______, _______,           _______, _______, _______
     ),

@@ -82,7 +82,7 @@
   <g transform="translate(100, 56.25)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">-</text>
+    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">+</text>
   </g>
   <g transform="translate(150, 50)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
@@ -97,7 +97,7 @@
   <g transform="translate(250, 62.5)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">|</text>
+    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">^</text>
   </g>
   <g transform="translate(300, 62.5)">
     <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
@@ -108,27 +108,25 @@
   <g transform="translate(550, 62.5)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">"</text>
+    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">~</text>
   </g>
   <g transform="translate(600, 56.25)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">&amp;</text>
+    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">`</text>
   </g>
   <g transform="translate(650, 50)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">*</text>
+    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">#</text>
   </g>
   <g transform="translate(700, 56.25)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">@</text>
+    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">!</text>
   </g>
   <g transform="translate(750, 68.75)">
-    <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
-    <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">#</text>
+    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(800, 68.75)">
     <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
@@ -144,7 +142,7 @@
   <g transform="translate(100, 106.25)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">_</text>
+    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">-</text>
   </g>
   <g transform="translate(150, 100)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
@@ -159,7 +157,7 @@
   <g transform="translate(250, 112.5)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">+</text>
+    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">@</text>
   </g>
   <g transform="translate(300, 112.5)">
     <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
@@ -170,22 +168,22 @@
   <g transform="translate(550, 112.5)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">'</text>
+    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">|</text>
   </g>
   <g transform="translate(600, 106.25)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">$</text>
+    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">_</text>
   </g>
   <g transform="translate(650, 100)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">%</text>
+    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">"</text>
   </g>
   <g transform="translate(700, 106.25)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">^</text>
+    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">'</text>
   </g>
   <g transform="translate(750, 118.75)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
@@ -199,12 +197,14 @@
     <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(50, 168.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
+    <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
+    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">%</text>
   </g>
   <g transform="translate(100, 156.25)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">\</text>
+    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">*</text>
   </g>
   <g transform="translate(150, 150)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
@@ -219,17 +219,17 @@
   <g transform="translate(250, 162.5)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">~</text>
+    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">$</text>
   </g>
   <g transform="translate(550, 162.5)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">`</text>
+    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">&amp;</text>
   </g>
   <g transform="translate(600, 156.25)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">!</text>
+    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">\</text>
   </g>
   <g transform="translate(650, 150)">
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
