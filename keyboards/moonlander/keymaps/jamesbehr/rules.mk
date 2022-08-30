@@ -1,7 +1,10 @@
 KEYMAP_FOLDER = keyboards/moonlander/keymaps/jamesbehr
 
 .PHONY: graphics
-graphics: $(KEYMAP_FOLDER)/media/0.svg $(KEYMAP_FOLDER)/media/1.svg $(KEYMAP_FOLDER)/media/2.svg
+graphics: $(KEYMAP_FOLDER)/media/0.svg \
+	$(KEYMAP_FOLDER)/media/1.svg \
+	$(KEYMAP_FOLDER)/media/2.svg \
+	$(KEYMAP_FOLDER)/media/3.svg
 
 AUDIO_ENABLE = no
 PROGRAMMABLE_BUTTON_ENABLE = yes

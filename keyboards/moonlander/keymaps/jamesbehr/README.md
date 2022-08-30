@@ -11,10 +11,12 @@ My work-in-progress Moonlander keymap
 - No RGB or audio (although I might use RGB for additional indicators)
 
 ## Tour
-I currently have three layers. A base layer, symbol layer and a GUI layer.
+I currently have four layers. A base layer, symbol layer, numpad layer, and a
+GUI layer.
 
 ### Base layer
 ![Base layer](media/0.svg)
+
 The base layer is a standard QWERTY layout. I've tried to keep most of the keys
 where you'd expect for now.
 
@@ -66,26 +68,12 @@ in future.
 
 ### Symbol layer
 ![Base layer](media/1.svg)
+
 The symbol layer is designed with the idea of having the commonly used symbols
-for programming be readily accessible. I also don't like extending my fingers
-to the number row on the base layer all that much, so I want numbers to be on
-this layer as well.
+for programming be readily accessible.
 
 I haven't yet decided where everything should fit on this layer yet and am
 actively tweaking it.
-
-#### Numbers
-I don't like extending my fingers to the number row all that much, and I'm
-trying to break that habit. I am considering removing numbers from the base
-layer altogether.
-
-I haven't decided whether I want the numpad-style layout that is the default or
-try something else, but the idea of having zero on the bottom row of the
-keyboard isn't all that appealing as that clashes with Alt on the right hand.
-
-I'm also toying with the idea of having most of the symbols be accessible by
-pressing shift together with the numbers on the symbol layer, but I don't know
-how I feel about having the round brackets appear twice on this layer.
 
 #### Brackets
 I like having the pairs of brackets be adjacent and not require holding shift.
@@ -102,8 +90,20 @@ shift.
 I think it might help for typing kebab- and snake-cased identifiers more
 quickly.
 
-### GUI Layer
+### Numbers
 ![Base layer](media/2.svg)
+
+I don't like extending my fingers to the number row all that much, and I'm
+trying to break that habit. I am considering removing numbers from the base
+layer altogether.
+
+I haven't decided whether I want the numpad-style layout that is the default or
+try something else, but the idea of having zero on the bottom row of the
+keyboard isn't all that appealing as that clashes with Alt on the right hand.
+
+### GUI Layer
+![Base layer](media/3.svg)
+
 I might change the name for this layer, but it's for making GUI apps more
 accessible.
 
