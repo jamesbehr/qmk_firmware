@@ -83,7 +83,7 @@ def Embed(*, path, x, y, w, h):
         )
 
 
-def Key(*, svg=None, text=None, color=GREY, x, y, w=1, h=1, ghosted, matrix):
+def Key(*, svg=None, transparent, text=None, color=GREY, x, y, w=1, h=1, ghosted, matrix):
     width = SIZE * w
     height = SIZE * h
     inner_border_size = max(INNER_OFFSET_X, INNER_OFFSET_Y) * 2
@@ -141,6 +141,7 @@ def Key(*, svg=None, text=None, color=GREY, x, y, w=1, h=1, ghosted, matrix):
                 height=height,
             ),
             transform=f"translate({x * SIZE}, {y * SIZE})",
+            opacity=0.3 if transparent else 1,
         )
 
     return el(
@@ -172,12 +173,20 @@ def Key(*, svg=None, text=None, color=GREY, x, y, w=1, h=1, ghosted, matrix):
         ),
         child,
         transform=f"translate({x * SIZE}, {y * SIZE})",
+        opacity=0.3 if transparent else 1,
     )
 
 
-def keys(layout, layer, labels):
+def keys(layout, layers, labels):
     for n, layout_props in enumerate(layout):
-        keycode = layer[n]
+        # Find the first non-transparent key
+        transparent = False
+        for layer in layers:
+            keycode = layer[n]
+            if keycode == "KC_TRNS":
+                transparent = True
+            else:
+                break
 
         label_props = labels.get(keycode, keycode)
         if isinstance(label_props, str):
@@ -188,13 +197,14 @@ def keys(layout, layer, labels):
         props = {
             **layout_props,
             **label_props,
-            "ghosted": keycode in ("KC_NO", "KC_TRNS"),
+            "ghosted": keycode in ("KC_NO",),
+            "transparent": transparent,
         }
 
         yield Key(**props)
 
 
-def Keyboard(layout, layer, labels):
+def Keyboard(layout, layers, labels):
     width = max(props.get("w", 1) + props["x"] for props in layout)
     height = max(props.get("h", 1) + props["y"] for props in layout)
 
@@ -213,7 +223,7 @@ def Keyboard(layout, layer, labels):
                 y2="100%",
             ),
         ),
-        *keys(layout, layer, labels),
+        *keys(layout, layers, labels),
         width=width * SIZE + BORDER_SIZE,
         height=height * SIZE + BORDER_SIZE,
         xmlns="http://www.w3.org/2000/svg",
@@ -227,5 +237,5 @@ labels = json.load(args.labels)
 layout_name = keymap["layout"]
 layout = info["layouts"][layout_name]["layout"]
 
-tree = Keyboard(layout, keymap["layers"][args.layer], labels)
+tree = Keyboard(layout, keymap["layers"][args.layer::-1], labels)
 print(tree.render_xml())
