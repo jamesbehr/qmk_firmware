@@ -9,7 +9,7 @@ graphics: $(KEYMAP_FOLDER)/media/0.svg \
 AUDIO_ENABLE = no
 PROGRAMMABLE_BUTTON_ENABLE = yes
 
-$(KEYMAP_FOLDER)/media/%.svg: $(KEYMAP_FOLDER)/keys.json $(KEYMAP_FOLDER)/info.json $(KEYMAP_FOLDER)/draw.py
+$(KEYMAP_FOLDER)/media/%.svg: $(KEYMAP_FOLDER)/keys.json $(KEYMAP_FOLDER)/info.json $(KEYMAP_FOLDER)/draw.py $(KEYMAP_FOLDER)/labels.json
 	python $(KEYMAP_FOLDER)/draw.py --keymap $(KEYMAP_FOLDER)/keys.json --info $(KEYMAP_FOLDER)/info.json --labels $(KEYMAP_FOLDER)/labels.json --layer $* > $@
 
 $(KEYMAP_FOLDER)/info.json:

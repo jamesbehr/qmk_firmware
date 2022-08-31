@@ -1,248 +1,326 @@
-<svg width="852" height="352.0" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns:ns0="http://www.w3.org/2000/svg" width="852" height="352.0" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="keycap-border" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#fefefe" />
-      <stop offset="100%" stop-color="#c4c4c4" />
+      <stop offset="0%" stop-color="rgba(255,255,255,0.2)" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0.15)" />
     </linearGradient>
   </defs>
   <g transform="translate(0, 18.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(50, 18.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(100, 6.25)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(150, 0)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(200, 6.25)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(250, 12.5)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(300, 12.5)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(500, 12.5)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(550, 12.5)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(600, 6.25)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(650, 0)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(700, 6.25)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(750, 18.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(800, 18.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(0, 68.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(50, 68.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(100, 56.25)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(150, 50)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(200, 56.25)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(250, 62.5)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(300, 62.5)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(500, 62.5)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(550, 62.5)">
+    <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">0</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">0</text>
   </g>
   <g transform="translate(600, 56.25)">
+    <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">7</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">7</text>
   </g>
   <g transform="translate(650, 50)">
+    <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">8</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">8</text>
   </g>
   <g transform="translate(700, 56.25)">
+    <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">9</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">9</text>
   </g>
   <g transform="translate(750, 68.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(800, 68.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(0, 118.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(50, 118.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(100, 106.25)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(150, 100)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(200, 106.25)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(250, 112.5)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(300, 112.5)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(500, 112.5)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(550, 112.5)">
+    <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">0</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">0</text>
   </g>
   <g transform="translate(600, 106.25)">
+    <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">4</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">4</text>
   </g>
   <g transform="translate(650, 100)">
+    <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">5</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">5</text>
   </g>
   <g transform="translate(700, 106.25)">
+    <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">6</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">6</text>
   </g>
   <g transform="translate(750, 118.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(800, 118.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(0, 168.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(50, 168.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(100, 156.25)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(150, 150)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(200, 156.25)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(250, 162.5)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(550, 162.5)">
+    <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">0</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">0</text>
   </g>
   <g transform="translate(600, 156.25)">
+    <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">1</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">1</text>
   </g>
   <g transform="translate(650, 150)">
+    <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">2</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">2</text>
   </g>
   <g transform="translate(700, 156.25)">
+    <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:14px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">3</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">3</text>
   </g>
   <g transform="translate(750, 168.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(800, 168.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(0, 218.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(50, 218.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(100, 206.25)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(150, 200)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(200, 206.25)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(250, 225.0)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="100" height="50" />
+    <rect fill="#ececec" rx="5" width="100" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="100" height="50" />
   </g>
   <g transform="translate(500, 225.0)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="100" height="50" />
+    <rect fill="#ececec" rx="5" width="100" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="100" height="50" />
   </g>
   <g transform="translate(600, 206.25)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect rx="5" fill="#3eb7a6" width="50" height="50" />
+    <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
+    <rect style="fill:#3eb7a6;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
+    <svg xmlns="http://www.w3.org/2000/svg" x="12.5" y="12.5" width="25" height="25">
+      <ns0:svg viewBox="0 0 24 24">
+        <ns0:path d="M4,17V9H2V7H6V17H4M22,15C22,16.11 21.1,17 20,17H16V15H20V13H18V11H20V9H16V7H20A2,2 0 0,1 22,9V10.5A1.5,1.5 0 0,1 20.5,12A1.5,1.5 0 0,1 22,13.5V15M14,15V17H8V13C8,11.89 8.9,11 10,11H12V9H8V7H12A2,2 0 0,1 14,9V11C14,12.11 13.1,13 12,13H10V15H14Z" />
+      </ns0:svg>
+    </svg>
   </g>
   <g transform="translate(650, 200)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(700, 206.25)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(750, 218.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(800, 218.75)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="50" />
+    <rect fill="#ececec" rx="5" width="50" height="50" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
   </g>
   <g transform="translate(250, 275.0)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="75.0" />
+    <rect fill="#ececec" rx="5" width="50" height="75.0" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="75.0" />
   </g>
   <g transform="translate(300, 275.0)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="75.0" />
+    <rect fill="#ececec" rx="5" width="50" height="75.0" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="75.0" />
   </g>
   <g transform="translate(350, 275.0)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="75.0" />
+    <rect fill="#ececec" rx="5" width="50" height="75.0" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="75.0" />
   </g>
   <g transform="translate(450, 275.0)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="75.0" />
+    <rect fill="#ececec" rx="5" width="50" height="75.0" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="75.0" />
   </g>
   <g transform="translate(500, 275.0)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="75.0" />
+    <rect fill="#ececec" rx="5" width="50" height="75.0" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="75.0" />
   </g>
   <g transform="translate(550, 275.0)">
-    <rect stroke-width="2" stroke="#272727" fill="#ccc" rx="5" width="50" height="75.0" />
+    <rect fill="#ececec" rx="5" width="50" height="75.0" />
+    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="75.0" />
   </g>
 </svg>

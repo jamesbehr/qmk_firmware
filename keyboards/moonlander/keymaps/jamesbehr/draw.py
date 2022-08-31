@@ -4,6 +4,7 @@ from typing import List, Union, Dict, Any
 from dataclasses import dataclass
 import xml.etree.ElementTree
 
+GREY = "#ececec"
 OUTER_SIZE = 54
 BORDER_SIZE = 2
 SIZE = 54 - BORDER_SIZE * 2
@@ -52,6 +53,8 @@ class Element:
                     raise RuntimeError("multiple text children not supported")
 
                 element.text = child
+            elif isinstance(child, xml.etree.ElementTree.Element):
+                element.append(child)
             else:
                 element.append(child.xml())
 
@@ -67,18 +70,72 @@ def el(element, *children, **props):
     return Element(element, children, props)
 
 
-def Key(*, label, x, y, w=1, h=1, ghosted, matrix):
+def Embed(*, path, x, y, w, h):
+    with open(path, "r") as svg:
+        return el(
+            "svg",
+            xml.etree.ElementTree.parse(svg).getroot(),
+            xmlns="http://www.w3.org/2000/svg",
+            x=x,
+            y=y,
+            width=w,
+            height=h,
+        )
+
+
+def Key(*, svg=None, text=None, color=GREY, x, y, w=1, h=1, ghosted, matrix):
     width = SIZE * w
     height = SIZE * h
+    inner_border_size = max(INNER_OFFSET_X, INNER_OFFSET_Y) * 2
+    inner_width = width - INNER_OFFSET_X * 2
+    inner_height = height - INNER_OFFSET_Y * 2
+    inner_style = {
+        "fill": color,
+        "stroke-width": BORDER_SIZE,
+    }
+
+    if svg is not None:
+        icon_size = 25
+        child = Embed(
+            path=svg,
+            x=INNER_OFFSET_X + (inner_width - icon_size) / 2,
+            y=INNER_OFFSET_Y + (inner_height - icon_size) / 2,
+            w=icon_size,
+            h=icon_size,
+        )
+
+    if text is not None:
+        text_style = {
+            "font-size": "16px",
+            "color": "#272727",
+            "font-family": "'Helvetica', 'Arial', sans-serif",
+            "text-anchor": "middle",
+            "dominant-baseline": "middle",
+        }
+
+        child = el(
+            "text",
+            text,
+            style=text_style,
+            x=INNER_OFFSET_X + inner_width / 2,
+            y=INNER_OFFSET_Y + inner_height / 2,
+        )
 
     if ghosted:
         return el(
             "g",
             el(
                 "rect",
+                fill=color,
+                rx=BORDER_RADIUS,
+                width=width,
+                height=height,
+            ),
+            el(
+                "rect",
                 stroke_width=BORDER_SIZE,
                 stroke="#272727",
-                fill="#ccc",
+                fill="rgba(0,0,0,0.15)",
                 rx=BORDER_RADIUS,
                 width=width,
                 height=height,
@@ -86,24 +143,15 @@ def Key(*, label, x, y, w=1, h=1, ghosted, matrix):
             transform=f"translate({x * SIZE}, {y * SIZE})",
         )
 
-    inner_border_size = max(INNER_OFFSET_X, INNER_OFFSET_Y) * 2
-    inner_width = width - INNER_OFFSET_X * 2
-    inner_height = height - INNER_OFFSET_Y * 2
-    inner_style = {
-        "fill": "#ececec",
-        "stroke-width": BORDER_SIZE,
-    }
-
-    text_style = {
-        "font-size": "14px",
-        "color": "#272727",
-        "font-family": "'Helvetica', 'Arial', sans-serif",
-        "text-anchor": "middle",
-        "dominant-baseline": "middle",
-    }
-
     return el(
         "g",
+        el(
+            "rect",
+            rx=BORDER_RADIUS,
+            fill=color,
+            width=width,
+            height=height,
+        ),
         el(
             "rect",
             rx=BORDER_RADIUS,
@@ -122,15 +170,7 @@ def Key(*, label, x, y, w=1, h=1, ghosted, matrix):
             width=width - inner_border_size,
             height=height - inner_border_size,
         ),
-        el(
-            "text",
-            label,
-            # alignment_baseline="middle",
-            # text_anchor="middle",
-            style=text_style,
-            x=INNER_OFFSET_X + inner_width / 2,
-            y=INNER_OFFSET_Y + inner_height / 2,
-        ),
+        child,
         transform=f"translate({x * SIZE}, {y * SIZE})",
     )
 
@@ -139,10 +179,16 @@ def keys(layout, layer, labels):
     for n, layout_props in enumerate(layout):
         keycode = layer[n]
 
+        label_props = labels.get(keycode, keycode)
+        if isinstance(label_props, str):
+            label_props = {"text": label_props}
+
+        del layout_props["label"]
+
         props = {
             **layout_props,
+            **label_props,
             "ghosted": keycode in ("KC_NO", "KC_TRNS"),
-            "label": labels.get(keycode, keycode),
         }
 
         yield Key(**props)
@@ -158,8 +204,8 @@ def Keyboard(layout, layer, labels):
             "defs",
             el(
                 "linearGradient",
-                el("stop", offset="0%", stop_color="#fefefe"),
-                el("stop", offset="100%", stop_color="#c4c4c4"),
+                el("stop", offset="0%", stop_color="rgba(255,255,255,0.2)"),
+                el("stop", offset="100%", stop_color="rgba(0,0,0,0.15)"),
                 id="keycap-border",
                 x1="0%",
                 y1="0%",
