@@ -90,8 +90,10 @@
     <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">QK_BOOT</text>
   </g>
   <g transform="translate(0, 68.75)" opacity="0.3">
-    <rect fill="#ececec" rx="5" width="50" height="50" />
-    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
+    <rect rx="5" fill="#ececec" width="50" height="50" />
+    <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
+    <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">↹</text>
   </g>
   <g transform="translate(50, 68.75)" opacity="0.3">
     <rect fill="#ececec" rx="5" width="50" height="50" />
@@ -133,7 +135,7 @@
     <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">0</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">~</text>
   </g>
   <g transform="translate(600, 56.25)" opacity="0.3">
     <rect rx="5" fill="#ececec" width="50" height="50" />
@@ -154,8 +156,10 @@
     <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">9</text>
   </g>
   <g transform="translate(750, 68.75)" opacity="0.3">
-    <rect fill="#ececec" rx="5" width="50" height="50" />
-    <rect stroke-width="2" stroke="#272727" fill="rgba(0,0,0,0.15)" rx="5" width="50" height="50" />
+    <rect rx="5" fill="#ececec" width="50" height="50" />
+    <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
+    <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">0</text>
   </g>
   <g transform="translate(800, 68.75)" opacity="0.3">
     <rect fill="#ececec" rx="5" width="50" height="50" />
@@ -233,7 +237,7 @@
     <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">:</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">0</text>
   </g>
   <g transform="translate(800, 118.75)" opacity="0.3">
     <rect fill="#ececec" rx="5" width="50" height="50" />
@@ -279,7 +283,7 @@
     <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">0</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">&amp;</text>
   </g>
   <g transform="translate(600, 156.25)" opacity="0.3">
     <rect rx="5" fill="#ececec" width="50" height="50" />
@@ -303,7 +307,7 @@
     <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">?</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">0</text>
   </g>
   <g transform="translate(800, 168.75)" opacity="0.3">
     <rect rx="5" fill="#ececec" width="50" height="50" />
@@ -418,21 +422,21 @@
     <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="37.5">MSB3</text>
   </g>
   <g transform="translate(450, 275.0)" opacity="0.3">
-    <rect rx="5" fill="#ececec" width="50" height="75.0" />
+    <rect rx="5" fill="#e84d4d" width="50" height="75.0" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="75.0" />
-    <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="69.0" />
-    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="37.5">⇧</text>
+    <rect style="fill:#e84d4d;stroke-width:2" rx="5" x="3" y="3" width="44" height="69.0" />
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="37.5">Alt</text>
   </g>
   <g transform="translate(500, 275.0)" opacity="0.3">
-    <rect rx="5" fill="#ececec" width="50" height="75.0" />
+    <rect rx="5" fill="#63cc69" width="50" height="75.0" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="75.0" />
-    <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="69.0" />
-    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="37.5">↹</text>
+    <rect style="fill:#63cc69;stroke-width:2" rx="5" x="3" y="3" width="44" height="69.0" />
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="37.5">⏎</text>
   </g>
   <g transform="translate(550, 275.0)" opacity="0.3">
     <rect rx="5" fill="#ececec" width="50" height="75.0" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="75.0" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="69.0" />
-    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="37.5">⏎</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="37.5">⎵</text>
   </g>
 </svg>

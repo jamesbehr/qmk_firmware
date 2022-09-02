@@ -11,7 +11,22 @@
         "color": "#3eb7a6",
         "svg": "keyboards/moonlander/keymaps/jamesbehr/icons/cursor-default-click.svg"
     },
-    "KC_ENT": "⏎",
+    "OSM(MOD_LGUI)": {
+        "color": "#e84d4d",
+        "text": "Gui"
+    },
+    "OSM(MOD_LCTL)": {
+        "color": "#e84d4d",
+        "text": "Ctrl"
+    },
+    "OSM(MOD_RALT)": {
+        "color": "#e84d4d",
+        "text": "Alt"
+    },
+    "RSFT_T(KC_ENT)": {
+        "color": "#63cc69",
+        "text": "⏎"
+    },
     "KC_0": "0",
     "KC_1": "1",
     "KC_2": "2",
