@@ -31,6 +31,9 @@ enum custom_keycodes {
     VRSN = ML_SAFE_RANGE,
 };
 
+#define VIRTUAL_CONSOLE(n) LCTL(LALT(KC_F##n))
+#define VC(n) VIRTUAL_CONSOLE(n)
+
 // clang-format off
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [BASE] = LAYOUT_moonlander(
@@ -61,7 +64,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [GUI] = LAYOUT_moonlander(
-        _______, _______, _______, _______, _______, _______, _______,           _______, _______, _______, _______, _______, EEP_RST, QK_BOOT,
+        _______, VC(1),   VC(2),   VC(3),   VC(4),   VC(5),   VC(6),             VC(7),   VC(8),   VC(9),   VC(10),  VC(11),  EEP_RST, QK_BOOT,
         _______, _______, KC_MS_U, _______, _______, _______, _______,           _______, _______, _______, _______, _______, _______, _______,
         _______, KC_MS_L, KC_MS_D, KC_MS_R, _______, _______, _______,           _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______, _______,
         _______, _______, _______, _______, _______, _______,                             _______, _______, _______, _______, _______, _______,

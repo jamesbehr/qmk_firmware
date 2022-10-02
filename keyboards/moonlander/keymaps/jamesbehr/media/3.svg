@@ -11,71 +11,71 @@
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
     <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">VRSN</text>
   </g>
-  <g transform="translate(50, 18.75)" opacity="0.3">
+  <g transform="translate(50, 18.75)" opacity="1">
     <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">F1</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">VC(1)</text>
   </g>
-  <g transform="translate(100, 6.25)" opacity="0.3">
+  <g transform="translate(100, 6.25)" opacity="1">
     <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">F2</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">VC(2)</text>
   </g>
-  <g transform="translate(150, 0)" opacity="0.3">
+  <g transform="translate(150, 0)" opacity="1">
     <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">F3</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">VC(3)</text>
   </g>
-  <g transform="translate(200, 6.25)" opacity="0.3">
+  <g transform="translate(200, 6.25)" opacity="1">
     <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">F4</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">VC(4)</text>
   </g>
-  <g transform="translate(250, 12.5)" opacity="0.3">
+  <g transform="translate(250, 12.5)" opacity="1">
     <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">F5</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">VC(5)</text>
   </g>
-  <g transform="translate(300, 12.5)" opacity="0.3">
+  <g transform="translate(300, 12.5)" opacity="1">
     <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">F6</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">VC(6)</text>
   </g>
-  <g transform="translate(500, 12.5)" opacity="0.3">
+  <g transform="translate(500, 12.5)" opacity="1">
     <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">F7</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">VC(7)</text>
   </g>
-  <g transform="translate(550, 12.5)" opacity="0.3">
+  <g transform="translate(550, 12.5)" opacity="1">
     <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">F8</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">VC(8)</text>
   </g>
-  <g transform="translate(600, 6.25)" opacity="0.3">
+  <g transform="translate(600, 6.25)" opacity="1">
     <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">F9</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">VC(9)</text>
   </g>
-  <g transform="translate(650, 0)" opacity="0.3">
+  <g transform="translate(650, 0)" opacity="1">
     <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">F10</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">VC(10)</text>
   </g>
-  <g transform="translate(700, 6.25)" opacity="0.3">
+  <g transform="translate(700, 6.25)" opacity="1">
     <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">F11</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">VC(11)</text>
   </g>
   <g transform="translate(750, 18.75)" opacity="1">
     <rect rx="5" fill="#ececec" width="50" height="50" />

@@ -130,3 +130,11 @@ the home row.
 #### Mouse
 I've moved the mouse to WASD instead of EDSF (WASD, but one column over) as it
 seemed more logical. Clicking is done on the thumb cluster.
+
+#### Virtual Consoles
+Accessing a Linux Virtual Console is usually done by pressing Ctrl, Alt
+followed by a function key corresponding to the virtual console you want to go
+to, e.g. Ctrl+Alt+F1 to go to the first virtual console.
+
+Since the function keys are on the symbol layer, this combination is somewhat
+awkward, so this layer provides shortcuts for this.
