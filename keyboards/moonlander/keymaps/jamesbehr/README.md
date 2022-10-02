@@ -67,6 +67,13 @@ I don't know how I feel about having the GUI layer activated like this just
 yet, but it's nice to be able to quickly access the mouse or arrow keys without
 lifting my hands off the keyboard.
 
+I have changed by tmux prefix key to Ctrl-Space as I feel this provides some
+nice symmetry with my Vim leader key (Space). This makes it awkward to switch
+panes by pressing the prefix key followed by the pane number, as you have to
+use your right thumb to quickly press Space and then the number. I am now
+experimenting with moving the number layer key to a different place to see if
+this can be less awkward.
+
 #### Other modifiers
 The other modifiers are where they'd usually be, as well as adding them as
 one-shot keys on the thumbs. I might keep them only on the thumb keys if I like

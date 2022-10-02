@@ -169,7 +169,7 @@
     <rect rx="5" fill="#ececec" width="50" height="50" />
     <rect rx="5" stroke-width="2" stroke="#272727" fill="url(#keycap-border)" width="50" height="50" />
     <rect style="fill:#ececec;stroke-width:2" rx="5" x="3" y="3" width="44" height="44" />
-    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">Esc</text>
+    <text style="font-size:16px;color:#272727;font-family:'Helvetica', 'Arial', sans-serif;text-anchor:middle;dominant-baseline:middle" x="25.0" y="25.0">LT(NUMB,KC_ESC)</text>
   </g>
   <g transform="translate(50, 118.75)" opacity="1">
     <rect rx="5" fill="#ececec" width="50" height="50" />
